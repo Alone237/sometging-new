@@ -5,7 +5,7 @@ const closeBtn = document.getElementById("close")
 constbformContainer = document.getElementById("formContainer")
 const paragraph = document.getElementsByTagName("p")
 console.log(paragraph)
-console.log(getStarted)
+console.log(getStarted)- 
 
 //What happens when i carry out a particular action
 getStarted.addEventListener('click', function(){

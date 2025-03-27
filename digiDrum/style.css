@@ -1,0 +1,79 @@
+:root {
+    --bg-primary: #1E1E2D;
+    --bg-secondary: #232533;
+    --bg-shad1: #0101209d;
+    --bg-shad2: #04092b9f;
+    --text: #FF9001;
+    --text-two: #FF8E01;
+
+
+}
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+h1{
+    font-weight: bold;
+    font-size: 43px;
+    color: #ffff;
+
+}
+
+span{
+    color: var(--text);
+}
+
+.container{
+    margin-top: 4rem;
+    width: 80vw;
+    height: 70vh;
+    box-shadow: 5px 5px 8px #00000020,
+            -5px -5px 8px var(--bg-secondary);
+        background: var(--bg-primary);
+    
+}
+body{
+    background-color: var(--bg-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 34px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+.img{
+    width: 44px;
+    height: 44px;
+}
+
+.drum{
+    display: flex;
+    width: 120px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 5px 5px 8px #00000020,
+            -5px -5px 8px var(--bg-secondary);
+        background: var(--bg-primary);
+        color: var(--text);
+        font-size: 34px;
+        cursor: pointer;
+}
+
+.pressed{
+    box-shadow: 5px 5px 8px var(--bg-shad2),
+            -5px -5px 8px var(--bg-shad1);
+        background: var(--text);
+}
